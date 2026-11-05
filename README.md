@@ -1,292 +1,178 @@
 
 # Devaraju Gunturu
-### M.Tech Cybersecurity | AI Security | Adversarial Machine Learning | Trustworthy AI
 
-**SASTRA Deemed University, Thanjavur, India**
+### Cybersecurity Researcher | AI Security | Adversarial Machine Learning | Trustworthy AI
 
-Email: [devarajugunturu123@gmail.com](mailto:devarajugunturu123@gmail.com)  
-Website: [techmugger.github.io](https://techmugger.github.io/)  
-GitHub: [github.com/techmugger](https://github.com/techmugger)  
-LinkedIn: [Devaraju Gunturu](https://www.linkedin.com/in/devaraju-gunturu-a8744b249)
+**M.Tech in Cybersecurity**  
+SASTRA Deemed University, Thanjavur, India  
+Expected Graduation: March 2027
 
----
+I am a postgraduate cybersecurity researcher interested in developing intelligent, robust, and trustworthy machine-learning systems for security-critical applications.
 
-## About Me
+My research interests lie at the intersection of **Artificial Intelligence and Cybersecurity**, particularly adversarial machine learning, neural-network protection, trustworthy AI, intelligent intrusion detection, and IoT security.
 
-I am an M.Tech student specializing in Cybersecurity at SASTRA Deemed University, India, with an interest in developing secure, reliable, and intelligent machine-learning systems.
-
-My research interests lie at the intersection of Artificial Intelligence and Cybersecurity, particularly adversarial machine learning, trustworthy AI, neural-network protection, and intelligent intrusion detection.
-
-I am interested in understanding how machine-learning systems can be exploited, how their reliability and ownership can be protected, and how AI-driven security mechanisms can improve the detection and analysis of threats in networked and IoT environments.
-
-My current research direction is focused on three interconnected areas:
-
-1. Adversarial Machine Learning and AI Security
-2. Trustworthy AI and Neural-Network Protection
-3. AI-driven Network and IoT Security
-
-This repository provides an overview of my research interests, selected implementations, and technical work.
+I am interested in investigating how machine-learning systems can be made more resilient against adversarial manipulation, how neural-network ownership can be verified, and how AI can improve the detection and analysis of sophisticated cyber threats.
 
 ---
 
-# Research Interests
+## Research Interests
 
-## 1. Adversarial Machine Learning and AI Security
+### 1. Adversarial Machine Learning and AI Security
+- Adversarial attacks and defenses against machine-learning models.
+- Robustness evaluation of deep-learning systems.
+- Generative adversarial networks for security applications.
+- Adversarial evasion and defensive strategies for intrusion detection.
 
-I am interested in studying adversarial threats against machine-learning systems, particularly how generative models and adversarial manipulation can affect the reliability of AI-based security mechanisms.
+### 2. Trustworthy AI and Neural-Network Protection
+- Neural-network watermarking and ownership verification.
+- Model integrity and intellectual-property protection.
+- Model robustness, reliability, and trustworthiness.
+- Secure deployment of machine-learning models.
 
-Research directions:
-- Adversarial evasion attacks against machine-learning models.
-- GAN-based adversarial sample generation.
-- Robustness evaluation of machine-learning-based intrusion detection systems.
-- Defensive mechanisms against adversarial manipulation.
-- Security and reliability of AI-driven detection systems.
-
-**Related research direction:** GAN-based adversarial evasion and defense for network intrusion detection.
-
----
-
-## 2. Trustworthy AI and Neural-Network Protection
-
-My interest in trustworthy AI includes protecting machine-learning models against unauthorized usage, replication, and ownership violations.
-
-I am particularly interested in watermarking mechanisms that establish model ownership while maintaining model functionality and enabling reliable user traceability.
-
-Research directions:
-- Deep neural-network watermarking.
-- Trigger-based model ownership verification.
-- Generative-model-based watermark generation.
-- Model protection and intellectual property verification.
-- Blockchain-assisted ownership and authorization mechanisms.
-- Robustness of watermarks against model manipulation.
-
-**Selected implementation:**
-GAN-PCPT & ACPT – Conditional GAN-Based DNN Watermarking.
-
----
-
-## 3. AI-driven Network and IoT Security
-
-I am interested in developing intelligent security architectures for networked and IoT environments, combining machine learning, network monitoring, and automated security analysis.
-
-Research directions:
+### 3. AI-driven Cybersecurity
 - Machine-learning-based network intrusion detection.
-- IoT and cyber-physical systems security.
-- Multi-stage threat detection and analysis.
-- Agentic AI for security operations.
-- Network traffic monitoring and behavioral analysis.
-- Explainable and intelligent security monitoring systems.
+- Intelligent threat detection and security analytics.
+- Agentic AI for cybersecurity operations.
+- Explainable and automated security analysis.
 
-**Selected implementations:**
-- IoT Intrusion Detection Centric Agentic AI.
-- Live IT/OT Network IDS using Zeek and ClickHouse.
-
----
-
-# Selected Research Projects and Implementations
-
-## 1. GAN-PCPT & ACPT: Conditional GAN-Based DNN Watermarking
-
-**Repository:** [github.com/techmugger/gan-pcpt-acpt](https://github.com/techmugger/gan-pcpt-acpt)
-
-**Research area:** Trustworthy AI | Neural-Network Security | Model Ownership Verification
-
-### Research Overview
-
-This project investigates scalable ownership verification and intellectual property protection for deep neural networks using a Conditional Generative Adversarial Network (cGAN)-based watermarking framework.
-
-The implementation extends PCPT-style DNN watermarking by addressing the limitations of conventional trigger generation approaches, particularly the difficulty of distinguishing individual users when trigger sets contain highly similar samples.
-
-### Key Components
-
-- Conditional GAN-based generation of synthetic, user-specific trigger sets.
-- PCPT-style neural-network watermark embedding.
-- ACPT-based active authorization control.
-- Blockchain-backed intellectual property lifecycle management.
-- User traceability and ownership verification.
-- Evaluation of scalability across multiple user configurations.
-
-### Experimental Evaluation
-
-The repository reports:
-
-- User traceability evaluation at N = 2, 5, 10, and 20.
-- 100% trace accuracy across the evaluated user configurations.
-- Zero false-positive rate in the reported experiments.
-- A seven-transaction blockchain IP lifecycle.
-- Improved trigger diversity compared with the video-frame-based baseline.
-
-### Technologies
-
-Python | Deep Learning | Conditional GAN | DNN Watermarking | Blockchain | Jupyter Notebook
-
-**Implementation:** [View source code and experiments](https://github.com/techmugger/gan-pcpt-acpt)
+### 4. IoT and Cyber-Physical Systems Security
+- Intrusion detection for IoT environments.
+- Network traffic analysis and threat monitoring.
+- Security of connected and resource-constrained systems.
+- AI-based detection of malicious network activities.
 
 ---
 
-## 2. IoT Intrusion Detection Centric Agentic AI
+## Selected Research Projects and Implementations
 
-**Repository:** [github.com/techmugger/iot-ids-agent](https://github.com/techmugger/iot-ids-agent)
+### 1. GAN-PCPT-ACPT: Trigger-Based DNN Watermarking
 
-**Research area:** IoT Security | Network Intrusion Detection | Agentic AI
+**Repository:** [GAN-PCPT-ACPT](https://github.com/techmugger/gan-pcpt-acpt)
 
-### Research Overview
+Research implementation focused on protecting deep neural networks through trigger-based watermarking and ownership verification.
 
-This project implements an IoT intrusion detection framework with auxiliary conversational capabilities.
+**Key components:**
+- Conditional GAN-based generation of personalized trigger sets.
+- Per-user trigger-based model ownership verification.
+- PCPT and ACPT watermarking approaches.
+- Blockchain-based intellectual-property lifecycle management.
+- Experimental evaluation across different user configurations.
 
-It explores the integration of conventional machine-learning-based intrusion detection with an agentic AI architecture capable of processing security-related queries and coordinating different tools.
+The repository reports 100% trace accuracy and zero false-positive rate in its documented experiments. These are project-reported results.
 
-The implementation is organized into two distinct tracks.
+**Research focus:** Neural-network protection, model ownership verification, generative models, and trustworthy AI.
 
-### Track A – Machine-Learning-Based Intrusion Detection
+### 2. AI-Driven IoT Intrusion Detection Agent
 
-- XGBoost-based intrusion classification.
-- UNSW-NB15 as the primary dataset.
-- NSL-KDD as a secondary benchmark.
-- Data preprocessing and feature transformation.
-- Model training and evaluation through Jupyter Notebook and Python modules.
+**Repository:** [IoT IDS Agent](https://github.com/techmugger/iot-ids-agent)
 
-### Track B – Agentic Conversational Security System
+An implementation exploring the integration of machine-learning-based intrusion detection with agentic AI and conversational security analysis.
 
-- LangGraph-based multi-LLM orchestration.
-- Planner, executor, and evaluator architecture.
-- Integration of intrusion-checking tools.
-- Security-query triage and orchestration.
-- FastAPI-based application interface.
-- Optional Google Calendar and Gmail integrations.
+**Key components:**
+- XGBoost-based intrusion detection.
+- UNSW-NB15 as the primary dataset and NSL-KDD as a secondary dataset.
+- LangGraph-based multi-agent orchestration.
+- LLM-assisted security analysis and alert triage.
+- FastAPI-based application architecture.
+- Optional integrations for external productivity services.
 
-### Technologies
+The project explores how conventional intrusion detection capabilities can be combined with language-model-based reasoning and coordinated security workflows.
 
-Python | XGBoost | Scikit-learn | LangGraph | Large Language Models | FastAPI | Jupyter Notebook
+**Research focus:** Intelligent intrusion detection, agentic AI, IoT security, and AI-assisted cybersecurity operations.
 
-**Implementation:** [View source code and project structure](https://github.com/techmugger/iot-ids-agent)
+### 3. Live Network IDS and Semantic SIEM Console
 
----
+**Repository:** [Network IDS – Zeek, ClickHouse and ChromaDB](https://github.com/techmugger/network-ids-zeek-chromadb)
 
-## 3. Live IT/OT Network IDS – Zeek, ClickHouse and Semantic SIEM Console
+A containerized network security monitoring platform designed to collect, process, store, and analyze network telemetry from live traffic.
 
-**Repository:** [github.com/techmugger/network-ids-zeek-chromadb](https://github.com/techmugger/network-ids-zeek-chromadb)
-
-**Research area:** Network Security | Intrusion Detection | Security Monitoring | IT/OT Security
-
-### Project Overview
-
-This project implements a self-hosted network intrusion detection and security monitoring platform designed for mixed IT and OT environments.
-
-It integrates live network traffic monitoring, centralized event storage, vulnerability correlation, and security monitoring interfaces into a containerized architecture.
-
-### Architecture and Components
-
-**1. Network Traffic Monitoring**
-- Zeek-based live network traffic capture.
-- Network connection and protocol analysis.
-- Monitoring of IT and OT network traffic.
-
-**2. Centralized Data Management**
-- ClickHouse-based storage.
-- Ingestion of network monitoring logs.
-- Centralized storage of alerts, assets, and security observations.
-
-**3. Threat Intelligence and Correlation**
-- CVE matching using NVD reference data.
-- MITRE ATT&CK technique correlation.
-- Fuzzy and semantic matching for security analysis.
-
-**4. Security Management Interface**
+**Key components:**
+- Zeek-based network traffic monitoring.
+- Live traffic capture through a network interface connected to a mirrored/SPAN port.
+- ClickHouse-based security telemetry storage.
+- CVE intelligence correlation using NVD data.
+- MITRE ATT&CK mapping and threat context.
 - FastAPI-based administrative console.
 - Streamlit-based monitoring dashboard.
-- Asset and alert management.
-- Analyst actions: Allow, Block, and Investigate.
-- Audit logging of alert-response decisions.
-
-**5. Deployment Architecture**
 - Docker Compose-based service orchestration.
-- Nginx reverse proxy.
-- Live network capture through a monitoring interface.
-- Modular services for ingestion, monitoring, and administration.
+- Analyst workflows for Allow, Block, and Investigate actions.
+- Append-only audit logging.
 
-### Technologies
+The enforcement component currently provides a pluggable interface; actual firewall enforcement is not implemented.
 
-Zeek | ClickHouse | Python | FastAPI | Streamlit | Docker | Docker Compose | Nginx | Network Security | MITRE ATT&CK | NVD
-
-**Implementation:** [View source code and architecture](https://github.com/techmugger/network-ids-zeek-chromadb)
-
-*Note: The response-action workflow currently includes a pluggable enforcement interface; actual firewall enforcement is not yet implemented.*
+**Research focus:** Network security monitoring, intrusion detection, threat intelligence, and security analytics.
 
 ---
 
-# Technical Skills and Research Tools
+## Technical Skills and Research Tools
 
 ### Programming and Development
 - Python
 - Jupyter Notebook
-- Git and GitHub
+- FastAPI
+- Streamlit
 
-### Machine Learning and Artificial Intelligence
+### Artificial Intelligence and Machine Learning
 - Machine Learning
 - Deep Learning
-- XGBoost
 - Generative Adversarial Networks
-- Conditional GANs
+- XGBoost
 - Adversarial Machine Learning
-- Neural-Network Watermarking
 - Explainable and Trustworthy AI
 
 ### Cybersecurity
-- Network Intrusion Detection
+- Network Intrusion Detection Systems
 - Network Traffic Analysis
 - IoT Security
-- IT/OT Security Monitoring
-- Adversarial Security
-- Vulnerability and Threat Intelligence
-- MITRE ATT&CK
-
-### Frameworks and Infrastructure
-- Scikit-learn
-- LangGraph
-- FastAPI
+- Security Monitoring
+- Threat Intelligence
 - Zeek
-- ClickHouse
-- Streamlit
+
+### Infrastructure and Tools
 - Docker and Docker Compose
-- Blockchain-based verification
+- ClickHouse
+- Git and GitHub
+- Linux
+- Kali Linux
+- LangGraph
 
 ---
 
-# Education
+## Education
 
-**Master of Technology (M.Tech) – Cybersecurity**
-
-SASTRA Deemed University  
-Thanjavur, Tamil Nadu, India
-
-Expected completion: March 2027
+**Master of Technology (M.Tech) – Cybersecurity**  
+SASTRA Deemed University, Thanjavur, India  
+Expected Completion: March 2027
 
 ---
 
-# Research Goals
+## Research Goals
 
-My long-term research goal is to contribute to the development of secure, robust, and trustworthy AI systems.
+I aim to pursue doctoral research in **Artificial Intelligence and Cybersecurity**, with particular interest in:
 
-I am particularly interested in pursuing doctoral research in:
-
-- Adversarial machine learning and AI security.
-- Trustworthy and robust machine learning.
+- Adversarial robustness and security of machine-learning systems.
+- Trustworthy and explainable artificial intelligence.
 - Neural-network watermarking and model protection.
-- AI-driven network and IoT security.
-- Intelligent and explainable intrusion detection.
+- AI-driven intrusion detection and intelligent threat analysis.
+- Security of IoT and cyber-physical systems.
 
-I am interested in research opportunities that combine rigorous experimental evaluation with practical cybersecurity applications.
+I am particularly interested in research that combines theoretical investigation with practical implementation and rigorous experimental evaluation.
 
----
-
-# Contact and Professional Profiles
-
-- **Email:** [devarajugunturu123@gmail.com](mailto:devarajugunturu123@gmail.com)
-- **Website:** [https://techmugger.github.io/](https://techmugger.github.io/)
-- **GitHub:** [https://github.com/techmugger](https://github.com/techmugger)
-- **LinkedIn:** [https://www.linkedin.com/in/devaraju-gunturu-a8744b249](https://www.linkedin.com/in/devaraju-gunturu-a8744b249)
+**PhD Research Interest:** Fall 2027
 
 ---
 
-*This repository serves as a research portfolio documenting selected implementations, technical explorations, and research interests in AI Security and Cybersecurity.*
+## Professional Profiles
+
+- **Website:** https://techmugger.github.io/
+- **GitHub:** https://github.com/techmugger
+- **LinkedIn:** https://www.linkedin.com/in/devaraju-gunturu-a8744b249
+- **Email:** devarajugunturu123@gmail.com
+
+---
+
+## Research and Collaboration
+
+I am interested in connecting with researchers and research groups working in AI Security, Adversarial Machine Learning, Trustworthy AI, and Intelligent Cybersecurity.
+
+I welcome opportunities for research collaboration and doctoral study in these areas.
